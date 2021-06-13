@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://obalaio.netlify.app")
 @RestController
 @RequestMapping("/produtos")
 public class ProdutoController {
